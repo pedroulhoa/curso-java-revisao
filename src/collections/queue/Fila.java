@@ -23,7 +23,7 @@ public class Fila {
 
         // Poll e Remove -> obtem o próximo elemento da fila e remove;
         // Diferença é o comportamento que ocorre quando a fila está vazia;
-        fila.poll(); // retorna false;
+        fila.poll(); // retorna null;
         fila.remove(); // lança uma execeção;
 
         // Métodos comuns com outras collections;
