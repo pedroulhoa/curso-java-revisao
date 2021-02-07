@@ -3,7 +3,7 @@ package collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class HashSetHeterogeneo {
+public class SetHeterogeneo {
 
     public static void main(String[] args) {
         HashSet conjunto = new HashSet();
