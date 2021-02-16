@@ -4,7 +4,7 @@ public class AppCarro {
 
     public static void main(String[] args) {
 
-        Civic civic = new Civic();
+        Civic civic = new Civic(210);
         Ferrari ferrari = new Ferrari();
 
         System.out.println("Velocidade Civic: " + civic.velocidadeAtual);
