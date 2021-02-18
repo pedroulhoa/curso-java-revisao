@@ -1,5 +1,7 @@
 package lambdas;
 
+import arrays.Foreach;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -20,6 +22,16 @@ public class ExemploForeachFuncional {
         System.out.println("\nMethod Reference...");
         aprovados.forEach(System.out::println);
 
+        System.out.println("\nLambda #02...");
+        aprovados.forEach(nome -> imprimirPersonalizado(nome));
+
+        System.out.println("\nMethod Reference #2...");
+        aprovados.forEach(ExemploForeachFuncional::imprimirPersonalizado);
+
+    }
+
+    static void imprimirPersonalizado(String nome) {
+        System.out.println("Olá! Meu nome é " + nome);
     }
 
 }
