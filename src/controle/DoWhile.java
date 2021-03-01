@@ -14,7 +14,7 @@ public class DoWhile {
             System.out.println("Você precisa falar " + "\nas palavras mágicas...");
             System.out.println("Quer sair?");
             texto = sc.nextLine();
-        }  while (!texto.equalsIgnoreCase("por favor"));
+        } while (!texto.equalsIgnoreCase("por favor"));
 
         sc.close();
 

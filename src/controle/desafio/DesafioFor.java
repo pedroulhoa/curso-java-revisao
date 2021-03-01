@@ -5,7 +5,7 @@ public class DesafioFor {
     public static void main(String[] args) {
 
         String controlador = "#";
-        for (;controlador.length() < 5;) {
+        for (; controlador.length() < 5; ) {
             System.out.println(controlador);
             controlador += "#";
         }

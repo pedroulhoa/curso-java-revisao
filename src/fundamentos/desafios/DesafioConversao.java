@@ -21,7 +21,7 @@ public class DesafioConversao {
         Double s2 = Double.parseDouble(salario2.replace(",", "."));
         Double s3 = Double.parseDouble(salario3.replace(",", "."));
 
-        System.out.println("Média salários: " + (s1+s2+s3) / 3);
+        System.out.println("Média salários: " + (s1 + s2 + s3) / 3);
 
         sc.close();
     }

@@ -18,7 +18,9 @@ public class CalculoApp {
         // ----------------------------------------------------
 
         // Utilizando interface funcional já existente na API do Java:
-        BinaryOperator<Double> calcExeploBinaryOperator = (x, y) -> {return x + y;};
+        BinaryOperator<Double> calcExeploBinaryOperator = (x, y) -> {
+            return x + y;
+        };
         System.out.println(calcExeploBinaryOperator.apply(1.0, 3.0));
 
         calcExeploBinaryOperator = (x, y) -> x + y;

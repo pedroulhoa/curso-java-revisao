@@ -14,7 +14,7 @@ public class ConversaoStringNumero {
         double numero1 = Double.parseDouble(valor1);
         double numero2 = Double.parseDouble(valor2);
 
-        double soma = numero1+numero2;
+        double soma = numero1 + numero2;
         System.out.println("soma é: " + soma);
         System.out.println("Média é: " + soma / 2);
 
