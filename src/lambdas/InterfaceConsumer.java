@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class Consumidor {
+public class InterfaceConsumer {
 
     public static void main(String[] args) {
 

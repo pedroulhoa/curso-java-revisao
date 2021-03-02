@@ -2,7 +2,7 @@ package lambdas;
 
 import java.util.function.Predicate;
 
-public class Predicado {
+public class InterfacePredicate {
 
     public static void main(String[] args) {
 
