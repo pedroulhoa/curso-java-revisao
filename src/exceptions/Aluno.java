@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class Aluno {
 
-    final String name;
-    final double nota;
+    public final String name;
+    public final double nota;
 
     public Aluno(String name, double nota) {
         this.name = name;
